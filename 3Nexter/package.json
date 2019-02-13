@@ -1,0 +1,15 @@
+{
+    "name": "Nexter",
+    "version": "1.0.0",
+    "description": "Nexter project with scss",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "author": "Chanaka Hettiarachchi",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^4.7.2"
+    },
+    "devDependencies": {}
+}
